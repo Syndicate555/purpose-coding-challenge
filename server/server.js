@@ -42,7 +42,7 @@ app.get('/', async (req, res) => {
   try {
     const options = {
       method: 'GET',
-      url: process.env.URL,
+      url: process.env.URL ||'https://purposecloud.s3.amazonaws.com/challenge-data.json',
     }
     const response = await axios(options)
     if (response && response.status === 200 && response.data) {
