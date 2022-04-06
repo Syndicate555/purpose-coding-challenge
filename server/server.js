@@ -26,6 +26,7 @@ if ((process.env.NODE_ENV = 'development')) {
   app.use(morgan('dev'))
 }
 
+// helper function to write the file locally
 const writeIt = ({ path, data }) =>
   new Promise((res, rej) =>
     fs.writeFile(path, data, (err) => {
@@ -42,7 +43,9 @@ app.get('/', async (req, res) => {
   try {
     const options = {
       method: 'GET',
-      url: process.env.URL ||'https://purposecloud.s3.amazonaws.com/challenge-data.json',
+      url:
+        process.env.URL ||
+        'https://purposecloud.s3.amazonaws.com/challenge-data.json',
     }
     const response = await axios(options)
     if (response && response.status === 200 && response.data) {

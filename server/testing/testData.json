@@ -1,0 +1,66 @@
+{
+ "fund_id": "PINC",
+ "aum": 123456,
+ "series": [
+  {
+   "series_id": "A",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "B",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "F",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "I",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "P",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "X",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "UA",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "ETF",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "UF",
+   "latest_nav": {
+    "value": 1
+   }
+  },
+  {
+   "series_id": "TA6",
+   "latest_nav": {
+    "value": 1
+   }
+  }
+ ]
+}
