@@ -1,66 +1,167 @@
 {
- "fund_id": "PINC",
- "aum": 123456,
- "series": [
-  {
-   "series_id": "A",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "B",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "F",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "I",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "P",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "X",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "UA",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "ETF",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "UF",
-   "latest_nav": {
-    "value": 1
-   }
-  },
-  {
-   "series_id": "TA6",
-   "latest_nav": {
-    "value": 1
-   }
-  }
- ]
+    "new_date": "2022-04-22",
+    "funds": [
+        {
+            "fund_id": "IGB",
+            "aum": 123456,
+            "series": [
+                {
+                    "series_id": "A",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "B",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "F",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "I",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "ETF",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "fund_id": "MJJ",
+            "aum": 123456,
+            "series": [
+                {
+                    "series_id": "A",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "F",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "ETF",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "fund_id": "PBI",
+            "aum": 123456,
+            "series": [
+                {
+                    "series_id": "A",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "D",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "F",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "I",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "XA",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "XF",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "A B",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "ETF",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "F B",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "I B",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "XUA",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "XUF",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "XF B",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "A USD",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "ETF B",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                },
+                {
+                    "series_id": "F USD",
+                    "latest_nav": {
+                        "value": 1
+                    }
+                }
+            ]
+        }
+    ]
 }
