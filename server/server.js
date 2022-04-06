@@ -93,7 +93,7 @@ app.post('/submit', async (req, res) => {
 
     const options = {
       method: 'GET',
-      url: process.env.URL,
+      url: process.env.URL || 'https://purposecloud.s3.amazonaws.com/challenge-data.json',
     }
     const response = await axios(options)
     let fundData
@@ -127,7 +127,7 @@ app.post('/submit', async (req, res) => {
   }
 })
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 4545
 
 app.listen(PORT, () => {
   console.log(`Server Listening on ${PORT}`)
