@@ -26,7 +26,7 @@ const Form = () => {
  const handleDateInput = useCallback((e) => setDate(e.target.value), []);
  const getData = async () => {
   try {
-   const response = await axios.get('http://localhost:5000/');
+   const response = await axios.get('http://localhost:4545');
    if (!response && !response.data) {
     throw new Error('No response from server');
    }
